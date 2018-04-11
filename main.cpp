@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-    int x = 10;
-    std::cout << "Hello World" << std::endl;
+    int x = 42;
+    std::cout << "My house number is " << x << std::endl;
     std::cin.get();
 }
