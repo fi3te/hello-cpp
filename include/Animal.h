@@ -1,17 +1,20 @@
 #ifndef ANIMAL_H
 #define ANIMAL_H
 
+#include <iostream>
 #include <string>
+
+using namespace std;
 
 class Animal {
     private:
-        const std::string description;
+        const string description;
     public:
-        Animal(std::string description);
+        Animal(string description);
         virtual ~Animal();
 
         virtual void makeNoise() = 0;
-        std::string getDescription();
+        string getDescription() const;
 };
 
 #endif // ANIMAL_H

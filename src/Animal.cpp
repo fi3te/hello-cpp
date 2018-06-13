@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Animal::Animal(std::string description): description(description) {
+Animal::Animal(string description): description(description) {
     cout << "An animal was born!" << endl;
 }
 
@@ -12,6 +12,6 @@ Animal::~Animal() {
     cout << "An animal has died!" << endl;
 }
 
-std::string Animal::getDescription() {
+string Animal::getDescription() const {
     return description;
 }
