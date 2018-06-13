@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-    Dog* d = new Dog;
-    d->bark();
+    Animal* d = new Dog;
+    d->makeNoise();
     delete d;
 
     cin.get();

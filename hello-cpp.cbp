@@ -20,6 +20,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/Animal.h" />
+		<Unit filename="include/Dog.h" />
+		<Unit filename="src/Animal.cpp" />
+		<Unit filename="src/Dog.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
